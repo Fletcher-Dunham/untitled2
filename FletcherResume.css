@@ -1,0 +1,75 @@
+
+body {
+    font-family: Didot, sans-serif;
+    background-color: #000000;
+    color: #000000;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 595px;
+    height: 842px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding-left: 50px;
+}
+
+.left, .right {
+    width: 45%;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 10px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+
+.skills p {
+    margin-bottom: 8px;
+}
+
+.education, .experience {
+    margin-bottom: 25px;
+
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 115px;
+    margin-top: auto;
+    img {
+        max-width: 196px;
+        height: auto;
+    }
+}
